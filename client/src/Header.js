@@ -22,8 +22,8 @@ export default function Header() {
         setUserInfo(null);
     }
     
-
     const username = userInfo?.username;
+    
     return (
         <header>
             <Link to="/" className="logo">MyBlog</Link>
