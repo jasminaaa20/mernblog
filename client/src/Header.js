@@ -1,6 +1,7 @@
 import { useContext, useEffect, useState } from 'react';
 import {Link} from 'react-router-dom';
 import { UserContext } from './UserContext';
+import BlogLogo from './logos/blog-svgrepo-com.svg';  // Import the SVG
 
 export default function Header() {
     const {setUserInfo, userInfo} = useContext(UserContext);
@@ -26,7 +27,10 @@ export default function Header() {
     
     return (
         <header>
-            <Link to="/" className="logo">MyBlog</Link>
+            <Link to="/" className="logo">
+                <img src={BlogLogo} alt="Blog Logo" className="w-6 h-6" />  {/* Use the imported SVG as an image */}
+                MyBlog
+            </Link>
             <nav>
                 {username && (
                     <>
