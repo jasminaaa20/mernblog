@@ -60,4 +60,4 @@ A full-stack blog application built using the MERN stack (MongoDB, Express, Reac
 ![CreatePost](Screenshots/CreatePost.png)
 
 ### EditPost
-![EditPost](screenshots/EditPost.png)
+![EditPost](Screenshots/EditPost.png)
