@@ -42,3 +42,22 @@ A full-stack blog application built using the MERN stack (MongoDB, Express, Reac
 - Node.js and npm installed.
 - MongoDB instance running (local or cloud).
 
+## Screenshots
+
+### HomePage
+![HomePage](Screenshots/HomePage.png)
+
+### LoginPage
+![LoginPage](Screenshots/LoginPage.png)
+
+### RegisterPage
+![RegisterPage](Screenshots/RegisterPage.png)
+
+### PostPage
+![PostPage](Screenshots/PostPage.png)
+
+### CreatePost
+![CreatePost](Screenshots/CreatePost.png)
+
+### EditPost
+![EditPost](Screenshots/EditPost.png)
