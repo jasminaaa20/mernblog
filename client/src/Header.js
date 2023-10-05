@@ -29,7 +29,7 @@ export default function Header() {
         <header>
             <Link to="/" className="logo">
                 <img src={BlogLogo} alt="Blog Logo" className="w-6 h-6" />  {/* Use the imported SVG as an image */}
-                MyBlog
+                TechWithAli
             </Link>
             <nav>
                 {username && (

@@ -36,7 +36,7 @@ header {
   justify-content: space-between;
   padding: 20px 20px;
   background-color: #333;
-  color: #fff;
+  color: #aaa;
   border-radius: 8px;
   align-items: center;
   margin-bottom: 20px;
@@ -45,6 +45,7 @@ header {
 header .logo {
   font-weight: bold;
   font-size: 1.8rem;
+  color: #fff;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -59,6 +60,14 @@ header .logo svg {
 header nav {
   display: flex;
   gap: 24px;
+}
+
+header nav a, header nav span {
+  color: #aaa;  /* Ensures the links and spans within the navigation are also lightened */
+}
+
+header nav a:hover {
+  color: #888; /* A slightly darker shade for hover effect, adjust as needed */
 }
 
 div.post {
